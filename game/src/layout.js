@@ -1,0 +1,10 @@
+export const HUD = { x: 0, y: 0, w: 1280, h: 36 };
+export const GRILL = { x: 28, y: 452, w: 400, h: 180 };
+export const PLATE = { x: 470, y: 420, w: 340, h: 230 };
+export const TRASH = { x: 470, y: 664, w: 150, h: 52 };
+export const PASS = { x: 852, y: 420, w: 400, h: 150 };
+export const START_BUTTON = { x: 500, y: 620, w: 280, h: 64 };
+export const RESTART_BUTTON = { x: 500, y: 620, w: 280, h: 64 };
+export const ticketRect = i => ({ x: 16 + i * 312, y: 46, w: 296, h: 138 });
+export const grillSlotRect = i => ({ x: 60 + i * 126, y: 492, w: 100, h: 100 });
+export const binRect = i => ({ x: 16 + i * 156, y: 668, w: 140, h: 120 });
